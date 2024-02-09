@@ -1,3 +1,8 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
 /* =========================== */
 /* Main Page */
 
@@ -81,7 +86,9 @@
 
 .right-screen-header {
   color: white;
-  margin: 10.5px 4.5px;
+  margin-top: 1.5px;
+  margin-bottom: 10.5px;
+  margin-horizontal: 4.5px;
   font-size: 25px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif

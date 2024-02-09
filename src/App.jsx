@@ -328,12 +328,16 @@ function App() {
         <Container fluid className={"right-screen"}>
           {/* Details */}
           <ContactDetails />
+          <hr className="border border-2 text-light" />
           {/* Links */}
           <Links />
+          <hr className="border border-2 text-light" />
           {/* Skills */}
           <Skills />
+          <hr className="border border-2 text-light" />
           {/* Hobbies */}
           <Hobbies />
+          <hr className="border border-2 text-light" />
           {/* Languages */}
           <Languages />
         </Container >
