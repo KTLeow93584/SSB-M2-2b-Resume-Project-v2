@@ -1,0 +1,103 @@
+/* =========================== */
+/* Main Page */
+
+.split-screen {
+  display: flex;
+  flex: 1;
+  flex-direction: flex-row;
+  width: 100vw;
+  height: 100%;
+}
+
+/* =========================== */
+/* Left Portion of the screen */
+
+.left-screen {
+  background-color: white;
+}
+
+.portrait {
+  width: 100px;
+  height: auto;
+}
+
+.header {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 25px;
+}
+
+.left-screen-group {
+  margin: 0% 7.5%;
+}
+
+.left-screen-content {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.left-screen-header {
+  color: black;
+  margin: 10.5px 4.5px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.left-screen-header-title {
+  color: black;
+  margin: 4.5px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.left-screen-content-quote {
+  color: grey;
+  margin: 4.5px;
+  font-size: 9px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.left-screen-content-description {
+  color: black;
+  margin: 4.5px;
+  font-size: 12px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+/* =========================== */
+/* Right Portion of the screen */
+
+.right-screen {
+  width: fit-content;
+  background-color: #1B212F;
+  padding-left: 1%;
+  padding-right: 5%;
+}
+
+.right-screen-header {
+  color: white;
+  margin: 10.5px 4.5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.right-screen-content {
+  color: white;
+  margin: 4.5px;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+.right-screen-content-link {
+  color: white;
+  font-size: 13px;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+/* =========================== */
